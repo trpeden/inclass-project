@@ -1,0 +1,143 @@
+/* Global Styles */
+
+body {
+    padding: 0px;
+    margin: 5px auto;
+    width: 100%;
+}
+
+a {
+text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.navbar{
+    height: 100px;
+    background-color: black;
+}
+.navbar-logo {
+    height:100px;
+
+}
+
+.navbar-nav {
+    float: right;
+
+}
+.nav-item {
+    float: right;
+    color: #fff;
+    padding: 10px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.nav-item {
+    border: ;
+}
+
+.nav-item a:hover {
+    color: purple;
+}
+
+.hero-img {
+    height: 1200px;
+    width: 100%;
+    background-image: linear-gradient(gray, light gray); url (./img/momentista-8Bt4XgLODpU-unsplashmountaintopmist.jp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hero-header {
+    color: green;
+    position: relative;
+    left: 400px;
+    top:-800px;
+}
+
+.content-img {
+ height: 400px;
+ width: 270px;
+ background-image: url('./img/fern2.jpg');
+background-size: contain;
+background-repeat: no-repeat;
+display: inline-block;
+position: relative;
+top: 80px;
+left:150px;
+}
+
+.content-para {
+height: 400px;
+width: 270px;
+background-color: green;
+position: relative;
+top: 30px;
+left: 400px;
+display: inline-block;
+}
+
+.contact-column {
+    width: 50%;
+    float: left;
+
+}
+    
+
+/* About Styles */
+.about-container {
+    height: 700px;
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    background-color: green;
+}
+
+
+.about-column {
+    width: 28%;
+    border: 2px solid black;
+    float: left;
+    padding: 25px 20px;
+    margin-left:20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.about-img {
+    height: 300px;
+    width: 250px;
+    margin: auto;
+}
+
+.about-audio {
+    margin-bottom: 250px;
+}
+.about-video {
+  
+}
+
+
+.footer {
+    height: 100px;
+    background-color:black;
+    width: 100%;
+    clear: left;
+} 
+
+
+.footer-item {
+    float: left;
+    margin-top: 50px;
+    margin-left: 300px;
+    color: ivory;
+    
+}
+
+    
+    
